@@ -103,7 +103,7 @@ export default function RegisterPage() {
                 type="text"
                 value={formData.firstName}
                 onChange={handleChange}
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent transition"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent transition text-gray-900 placeholder:text-gray-400"
                 placeholder="John"
                 required
               />
@@ -119,7 +119,7 @@ export default function RegisterPage() {
                 type="text"
                 value={formData.lastName}
                 onChange={handleChange}
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent transition"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent transition text-gray-900 placeholder:text-gray-400"
                 placeholder="Doe"
                 required
               />
@@ -219,7 +219,7 @@ export default function RegisterPage() {
                   type="text"
                   value={formData.organizationName}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent transition"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent transition text-gray-900 placeholder:text-gray-400"
                   placeholder="Enter organization name"
                   required
                 />
@@ -234,7 +234,7 @@ export default function RegisterPage() {
                   name="organizationDescription"
                   value={formData.organizationDescription}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent transition"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent transition text-gray-900 placeholder:text-gray-400"
                   placeholder="Brief description of your organization"
                   rows={3}
                 />
@@ -252,7 +252,7 @@ export default function RegisterPage() {
                 name="organizationId"
                 value={formData.organizationId}
                 onChange={handleChange}
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent transition"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent transition text-gray-900 placeholder:text-gray-400"
                 required
               >
                 <option value="">Select an organization...</option>
